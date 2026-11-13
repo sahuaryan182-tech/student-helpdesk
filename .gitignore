@@ -1,0 +1,33 @@
+backend/venv/
+backend/.env
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+
+frontend/node_modules/
+frontend/dist/
+
+.DS_Store
+*.log
+# Secrets (keep .env.example so others know which variables are needed)
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# OS / editor / logs
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
